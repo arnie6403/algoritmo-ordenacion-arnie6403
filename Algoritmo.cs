@@ -25,6 +25,18 @@ public class Algoritmo
     public void BubbleSort(int[] arr)
     {
         // TODO: Implementar el algoritmo de Bubble Sort tradicional
-
+    procedimiento bubbleSort(arreglo)
+    n = longitud(arreglo)
+    para i desde 0 hasta n-1:
+        para j desde 0 hasta n-i-1:
+            si arreglo[j] > arreglo[j+1] entonces:
+                // Intercambio (Swap)
+                temporal = arreglo[j]
+                arreglo[j] = arreglo[j+1]
+                arreglo[j+1] = temporal
+            fin si
+        fin para
+    fin para
+fin procedimiento
     }
 }
